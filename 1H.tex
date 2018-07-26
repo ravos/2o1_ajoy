@@ -2,7 +2,7 @@
 % hypertarget modified
 % longtable modified
 
-\chapter{1H Sequences}
+\chapter{1\H\ Sequences}
 
 \hypertarget{1h}{}
 \begin{longtable}{C{\bidlength} C{\bidlength} | l}
@@ -10,6 +10,7 @@ Opener & Responder \\
 1\H  & & standard \\
 \hline\hline
 & \hyperlink{1h2c}{2\C} & catch-call GF \\
+& \hyperlink{1h2d}{2\D} & 5+\D\ GF \\
 \end{longtable}
 
 \section{1\H-2\C\ Sequences}
@@ -21,9 +22,9 @@ Opener & Responder \\
 & 2\C & catch-call GF \\
 \hline\hline
 \hyperlink{1h2c2d}{2\D} & & 4+\D \\
-\hyperlink{1h2c2d}{2\H} & & 4+\S \\
-2\S & & catch-all a) 6+\H\ b) 5332 11-14 c) 4\C\ 11-14 \\
-2NT & & a) 16+ BAL b) 6\H4\C\ 15+ \\
+\hyperlink{1h2c2h}{2\H} & & 4+\S \\
+\hyperlink{1h2c2s}{2\S} & & catch-all a) 6+\H\ b) 5332 11-14 c) 4\C\ 11-14 \\
+\hyperlink{1h2c2n}{2NT} & & a) 16+ BAL b) 6\H4\C\ 15+ \\
 3\C & & 5\H4+\C\ 15+ [R] 3\D=ask: 54Low/54High/5422/55, 3\H=fix \H, 3\S=\S\ stopper \\
 3\D & & 5\H5\C\ short \D\ 11-14 \\
 3\H & & fix \H \\
@@ -138,4 +139,38 @@ Opener & Responder \\
 & 3\D & 6\C5\D \\
 & 3\H & 3+\H\ raise [O] everything is serious \\
 & 3\S & 6\C5\S \\
+\end{longtable}
+
+\section{1\H-2\D\ Sequences}
+
+\hypertarget{1h2d}{}
+\begin{longtable}{C{\bidlength} C{\bidlength} | l}
+Opener & Responder \\
+\hyperlink{1h}{1\H} & & standard \\
+& 2\D & 5+\D\ GF \\
+\hline\hline
+\hyperlink{1h2d2h}{2\H} & & 4+\S \\
+2\S & & catch-all a) 6+\H\ b) 5332 11-14 c) 4\C\ 11-14 d) 4\D 11-14 \\
+2NT & & a) 16+ BAL b) 6\H4\C\ 15+ \\
+3\C & & 5\H4+\C\ 15+ [R] 3\D=ask: 55+/no \S stopper/stopper/4\D=3+, 3\H=fix \H \\
+3\D & & 5\H4\D\ 15+ or 5\H5\D\ 11-14 [R] \\
+3\H & & fix \H \\
+3\S & & 5\H5\C\ 11-14 \\
+\end{longtable}
+
+\subsection{1\H-2\D-2\H\ Sequences}
+
+\hypertarget{1h2d2h}{}
+\begin{longtable}{C{\bidlength} C{\bidlength} | l}
+Opener & Responder \\
+\hyperlink{1h}{1\H} & & standard \\
+& \hyperlink{1h2c}{2\D} & 5+\D\ GF \\
+2\H & & 4+\S \\
+\hline\hline
+& 2\S & 3+\H\ [O] \hyperlink{1h2c2dR1}{Relay 1}\\
+& 2NT & with \S\ stopper, no clear direction [O] \hyperlink{1h2c2dR2}{Relay 2}\\
+& 3\C & 4th suit, no stopper in \C\ [O] NAT [R] 4\C=5\C5\D \\
+& 3\D & good 6+\D \\
+& 3\H & 4+\S\ raise with \H\ shortness or no shortness \\
+& 3\S & 4+\S\ raise with \D\ shortness \\
 \end{longtable}
